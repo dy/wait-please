@@ -1,6 +1,8 @@
-# wait-please
+# wait-please [![Build Status](https://travis-ci.org/dy/wait-please.svg?branch=master)](https://travis-ci.org/dy/wait-please) [![unstable](https://img.shields.io/badge/stability-experimental-yellow.svg)](http://github.com/badges/stability-badges)
 
 Create a promise, waiting for the indicated interval. Useful for organizing tests.
+
+[![NPM](https://nodei.co/npm/wait-please.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/wait-please/)
 
 ```js
 import { time, frame, time, idle } from 'wait-please'
@@ -24,4 +26,6 @@ await idle()
 * [macrotask](https://ghub.io/macrotask)
 * [tic-tac](https://www.npmjs.com/package/tic-tac)
 
-<p aligh="right">HK</p>
+###
+
+<p align="right">HK</p>
