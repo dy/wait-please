@@ -26,6 +26,4 @@ await idle()
 * [macrotask](https://ghub.io/macrotask)
 * [tic-tac](https://www.npmjs.com/package/tic-tac)
 
-##
-
 <p align="right">HK</p>
