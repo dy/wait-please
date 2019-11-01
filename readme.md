@@ -2,7 +2,7 @@
 
 Create a promise, waiting for the indicated interval. Useful for organizing tests.
 
-[![NPM](https://nodei.co/npm/wait-please.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/wait-please/)
+[![NPM](https://nodei.co/npm/wait-please.png?downloads=false&downloadRank=false&stars=false)](https://nodei.co/npm/wait-please/)
 
 ```js
 import { time, frame, time, idle } from 'wait-please'
@@ -26,6 +26,6 @@ await idle()
 * [macrotask](https://ghub.io/macrotask)
 * [tic-tac](https://www.npmjs.com/package/tic-tac)
 
-###
+##
 
 <p align="right">HK</p>
