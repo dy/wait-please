@@ -20,7 +20,7 @@ await time(150)
 await idle()
 ```
 
-## Similar
+## Similar / refs
 
 * [queue-microtask](https://github.com/feross/queue-microtask)
 * [macrotask](https://ghub.io/macrotask)
