@@ -2,7 +2,7 @@
 
 Create a promise, waiting for the indicated interval. Useful for organizing tests.
 
-[![NPM](https://nodei.co/npm/wait-please.png?downloads=false&downloadRank=false&stars=false)](https://nodei.co/npm/wait-please/)
+[![NPM](https://nodei.co/npm/wait-please.png?mini=true)](https://nodei.co/npm/wait-please/)
 
 ```js
 import { time, frame, time, idle } from 'wait-please'
