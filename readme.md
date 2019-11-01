@@ -23,7 +23,6 @@ await idle()
 ## Similar / refs
 
 * [queue-microtask](https://github.com/feross/queue-microtask)
-* [macrotask](https://ghub.io/macrotask)
 * [tic-tac](https://www.npmjs.com/package/tic-tac)
 
 <p align="right">HK</p>

@@ -1,7 +1,7 @@
-let macrotask = require('macrotask')
 let raf = require('raf')
 let queueMicrotask = require('queue-microtask')
 
+let macrotask = typeof requestIdleCallback !== 'undefined' ? requestIdleCallback : setImmediate
 
 module.exports.idle = function task (n = 1) {
   return new Promise(ok => {
@@ -10,7 +10,7 @@ module.exports.idle = function task (n = 1) {
     function f() {
       if (count === n) return ok()
       count++
-      macrotask.run(f)
+      macrotask(f)
     }
   })
 }
