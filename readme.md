@@ -1,4 +1,4 @@
-# wait-please [![Build Status](https://travis-ci.org/dy/wait-please.svg?branch=master)](https://travis-ci.org/dy/wait-please) [![unstable](https://img.shields.io/badge/stability-experimental-yellow.svg)](http://github.com/badges/stability-badges)
+# wait-please [![Build Status](https://travis-ci.org/dy/wait-please.svg?branch=master)](https://travis-ci.org/dy/wait-please) [![unstable](https://img.shields.io/badge/stability-unstable-yellow.svg)](http://github.com/badges/stability-badges)
 
 Create a promise, waiting for the indicated interval. Useful for organizing tests.
 
