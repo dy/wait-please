@@ -1,0 +1,43 @@
+{
+  "name": "wait-please",
+  "version": "1.0.0",
+  "description": "Assorted waiters",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r esm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dy/wait-please.git"
+  },
+  "keywords": [
+    "wait",
+    "await",
+    "waiter",
+    "timer",
+    "queueMicrotask",
+    "setImmediate",
+    "asap",
+    "raf",
+    "frame",
+    "tick",
+    "nextTick",
+    "setTimeout",
+    "delay"
+  ],
+  "author": "Dmitry Ivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dy/wait-please/issues"
+  },
+  "homepage": "https://github.com/dy/wait-please#readme",
+  "dependencies": {
+    "macrotask": "^3.0.0",
+    "queue-microtask": "^1.1.2",
+    "raf": "^3.4.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "tape": "^4.11.0"
+  }
+}
