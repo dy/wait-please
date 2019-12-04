@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "description": "Assorted waiters",
   "main": "index.js",
-  "type": "module",
+  "module": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node -r esm test"
   },
   "repository": {
     "type": "git",
