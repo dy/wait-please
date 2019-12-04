@@ -1,9 +1,9 @@
-let raf = require('raf')
-let queueMicrotask = require('queue-microtask')
+import raf from 'raf'
+import queueMicrotask from 'queue-microtask'
 
 let macrotask = typeof requestIdleCallback !== 'undefined' ? requestIdleCallback : setImmediate
 
-module.exports.idle = function task (n = 1) {
+export function idle (n = 1) {
   return new Promise(ok => {
     let count = 0
     f()
@@ -15,11 +15,11 @@ module.exports.idle = function task (n = 1) {
   })
 }
 
-module.exports.time = function time (n) {
+export function time (n) {
   return new Promise(ok => setTimeout(ok, n))
 }
 
-module.exports.frame = function frame (n = 1) {
+export function frame (n = 1) {
   return new Promise(ok => {
     let count = 0
     f()
@@ -31,7 +31,7 @@ module.exports.frame = function frame (n = 1) {
   })
 }
 
-module.exports.tick = function tick(n = 1) {
+export function tick(n = 1) {
   return new Promise(ok => {
     let count = 0
     f()

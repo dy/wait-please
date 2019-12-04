@@ -1,6 +1,6 @@
-let { tick, idle, time, frame } = require('.')
-let assert = require('assert')
-let t = require('tape')
+import { tick, idle, time, frame } from './index.js'
+import assert from 'assert'
+import t from 'tape'
 
 let log = []
 
