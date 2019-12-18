@@ -5,7 +5,8 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-    "test": "node -r esm test"
+    "test": "node -r esm test",
+    "start": "es-dev-server --watch --node-resolve --dedupe"
   },
   "repository": {
     "type": "git",
@@ -32,12 +33,10 @@
     "url": "https://github.com/dy/wait-please/issues"
   },
   "homepage": "https://github.com/dy/wait-please#readme",
-  "dependencies": {
-    "queue-microtask": "^1.1.2",
-    "raf": "^3.4.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "es-dev-server": "^1.32.0",
     "esm": "^3.2.25",
-    "tape": "^4.11.0"
+    "tst": "^4.0.0"
   }
 }

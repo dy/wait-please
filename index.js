@@ -1,7 +1,5 @@
-import raf from 'raf'
-import queueMicrotask from 'queue-microtask'
-
-let macrotask = typeof requestIdleCallback !== 'undefined' ? requestIdleCallback : setImmediate
+const raf = typeof requestAnimationFrame !== 'undefined' ? requestAnimationFrame : (fn) => setTimeout(fn, 0)
+const macrotask = typeof requestIdleCallback !== 'undefined' ? requestIdleCallback : setImmediate
 
 export function idle (n = 1) {
   return new Promise(ok => {
@@ -38,7 +36,7 @@ export function tick(n = 1) {
     function f() {
       if (count === n) return ok()
       count++
-      queueMicrotask(f)
+      Promise.resolve().then(f)
     }
   })
 }
