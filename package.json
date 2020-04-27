@@ -4,8 +4,9 @@
   "description": "Assorted waiters",
   "main": "index.js",
   "module": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "node -r esm test",
+    "test": "node test",
     "start": "es-dev-server --watch --node-resolve --dedupe"
   },
   "repository": {
@@ -37,6 +38,6 @@
   "devDependencies": {
     "es-dev-server": "^1.32.0",
     "esm": "^3.2.25",
-    "tst": "^4.0.0"
+    "tst": "^6.0.2"
   }
 }

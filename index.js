@@ -5,9 +5,10 @@ export function idle (n = 1) {
   return new Promise(ok => {
     let count = 0
     f()
-    function f() {
+    async function f() {
       if (count === n) return ok()
       count++
+      await time()
       macrotask(f)
     }
   })

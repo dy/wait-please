@@ -9,10 +9,10 @@ t('basic', async t => {
   frame().then(() => log.push('frame'))
   time(0).then(() => log.push('time'))
 
-  t.deepEqual(log, [], 'none')
+  t.is(log, [], 'none')
 
   await idle()
-  t.deepEqual(log, ['tick', 'frame', 'time', 'idle'], 'idle')
+  t.is(log, ['tick', 'frame', 'time', 'idle'], 'idle')
 
   t.end()
 })
