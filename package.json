@@ -5,6 +5,7 @@
   "main": "index.js",
   "module": "index.js",
   "type": "module",
+  "exports": {},
   "scripts": {
     "test": "node test",
     "start": "es-dev-server --watch --node-resolve --dedupe"
