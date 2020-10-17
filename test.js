@@ -1,4 +1,4 @@
-import { tick, idle, time, frame } from './index.js'
+import { tick, idle, time, frame } from './lib/index.js'
 import t from 'tst'
 
 let log = []

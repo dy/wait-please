@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "Dmitry",
+        "Ivanov",
+        "Microtask",
+        "dedupe",
+        "macrotask"
+    ],
+    "editor.tabSize": 2,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true
+}

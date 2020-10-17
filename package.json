@@ -2,10 +2,16 @@
   "name": "wait-please",
   "version": "3.1.0",
   "description": "Assorted waiters",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
   "type": "module",
-  "exports": {},
+  "exports": {
+    ".": "./lib/index.js",
+    "./idle": "./lib/idle.js",
+    "./time": "./lib/time.js",
+    "./frame": "./lib/frame.js",
+    "./tick": "./lib/tick.js"
+  },
   "scripts": {
     "test": "node test",
     "start": "es-dev-server --watch --node-resolve --dedupe"
