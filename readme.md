@@ -5,7 +5,7 @@ Create a promise, waiting for the indicated interval. Useful for organizing test
 [![NPM](https://nodei.co/npm/wait-please.png?mini=true)](https://nodei.co/npm/wait-please/)
 
 ```js
-import { time, frame, time, idle } from 'wait-please'
+import { tick, frame, time, idle } from 'wait-please'
 
 // 3 microtask ticks (queueMicrotask, Promise.resolve ~ same as process.nextTick)
 await tick(3)
